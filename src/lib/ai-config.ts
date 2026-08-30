@@ -17,7 +17,7 @@ import { google } from "@ai-sdk/google";
 
 // Free-tier Gemini model, chosen specifically because it requires no
 // credit card to obtain a key (unlike the Anthropic API).
-export const CHAT_MODEL = google("gemini-2.5-flash");
+export const CHAT_MODEL = google("gemini-3.6-flash");
 
 // The assistant only ever answers as "the portfolio's assistant," never as
 // Kazii himself, and is scoped to only discuss the projects/skills — this
